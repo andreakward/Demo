@@ -36,7 +36,7 @@ jobs:
         uses: Azure/functions-action@v1
         id: fa
         with:
-          app-name: 'demo-mtc-appdev-jmga-f1'
+          app-name: 'andreawarddemo'
           slot-name: 'production'
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: '${{ env.PACKAGE_DIRECTORY }}'
